@@ -1,0 +1,16 @@
+*{
+    font-family:'Times New Roman', Times, serif;
+}
+
+body{
+    background-color: rgb(33, 33, 32);
+}
+h1,h3,a{
+    color: rgb(241, 155, 17);
+}
+p,li{
+    color: rgb(247, 227, 196);
+}
+li{
+    margin: 5px;
+}
