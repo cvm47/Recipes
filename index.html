@@ -19,18 +19,23 @@
             font-size: 48px;
         }
 
-        a{
+        a {
             text-decoration: none;
             color: #333;
             font-size: 24px;
-            font-weight: 500;
-        }
-        
-        a:hover {
-            color: #191312; /* Tomato color on hover */
-            font-weight: 700;
+            font-weight: 600;
             transition: all 0.3s ease-in-out;
         }
+
+        a:hover {
+            color: #ffffff; /* white text */
+            text-shadow: 
+                -1px -1px 0 black,
+                1px -1px 0 black,
+                -1px  1px 0 black,
+                1px  1px 0 black; /* black outline */
+        }
+
 
         .container {
             display: flex;
@@ -70,7 +75,7 @@
             <img src="r1/cocaine.jpg" alt="">
             <a href="r1/Cocaine.html">Colombian-Coke</a>
         </div>
-        <div class="imgs link2">
+        <div class="imgs link2" style="flex:1.5;">
             <img src="r2/weed.jpg" alt="">
             <a href="r2/marijuana.html">Himalayan-Weed</a>
         </div>
