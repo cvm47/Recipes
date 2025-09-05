@@ -1,39 +1,103 @@
-*{
-    /* border:2px solid yellow; */
-    font-family: 'Courier New', Courier, monospace;
-}
+      body {
+        margin: 0;
+        font-family: "Edu NSW ACT Cursive", cursive;
+        color: #333;
+        line-height: 1.8;
+      }
 
-html{
-    background-color: rgb(246, 246, 239);
-}
-.container{
-    /* border:2px solid red ; */
-    /* width: 30px; */
-    border-radius: 10px;
-    width: 85%;
-    margin: 0 auto;
-    background-color: rgb(208, 214, 176);
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 18px;
-}
+      h1 {
+        text-align: center;
+        font-family: "Edu NSW ACT Cursive", sans-serif;
+        font-weight: 500;
+        color: #333;
+        margin: 30px 0;
+        font-size: 32px;
+      }
 
-h1{
-    font-size:48px;
-    color:rgb(73, 86, 49);
-    text-align: center;
-}
+      .container {
+        background-color: rgb(242, 242, 235);
+        border-radius: 5px;
+        padding: 20px 50px;
+        max-width: 900px;
+        margin: auto;
+      }
 
-h3{
-    font-size: 28px;
-    color: rgb(74, 84, 56);
-    font-weight:700;
-}
+      .description {
+        text-align: center;
+        padding: 0 40px;
+        color: #444;
+        font-size: 20px;
+        margin-bottom: 40px;
+      }
 
-p{
-    font-size: 18px;
-}
+      .imgAndIngs {
+        display: flex;
+        gap: 30px;
+        margin: 20px 0;
+      }
 
-li{
-    margin:10px 0;
-}
+      .imgAndIngs .image {
+        flex: 1;
+        border: 2px solid #333;
+        border-radius: 5px;
+      }
 
+      .imgAndIngs .ings {
+        flex: 1;
+        border-radius: 5px;
+        background-color: #bfe7e7;
+      }
+
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: fill;
+      }
+
+      .ings h3,
+      .steps h3 {
+        text-align: center;
+        font-family: 'Edu NSW ACT Cursive', sans-serif;
+        color: #333;
+        margin-bottom: 15px;
+        font-size: 24px;
+      }
+
+      .ings ul {
+        padding-left: 25px;
+      }
+
+      .ings ul li {
+        list-style: disc;
+        font-size: 18px;
+        margin-bottom: 12px;
+        color: #333;
+      }
+
+      .steps {
+        margin-top: 50px;
+      }
+
+      .steps ol {
+        padding-left: 25px;
+      }
+
+      .steps ol li {
+        margin-bottom: 15px;
+        font-size: 18px;
+        color: #333;
+      }
+
+      a {
+        display: block;
+        text-align: center;
+        font-size: larger;
+        margin: 30px 0;
+        color: #2f4f4f;
+        font-weight: 500;
+        transition: 0.3s;
+      }
+
+      a:hover {
+        color: #359f9f;
+      }
