@@ -1,6 +1,102 @@
-*{
-    font-family:Georgia, 'Times New Roman', Times, serif
+ body {
+      margin: 0;
+      font-family: "Edu NSW ACT Cursive", cursive;
+      color: #333;
+      line-height: 1.8;
+    }
+
+h1 {
+      text-align: center;
+      font-family:  "Edu NSW ACT Cursive",sans-serif;
+      font-weight: 500;
+      color: #333;
+      margin: 30px 0;
+      font-size: 32px;
 }
-body{
-    background-color: rgb(235, 217, 190);
-}
+
+    .container {
+      background-color: rgb(242, 242, 235);
+      border-radius: 5px;
+      padding: 20px 50px;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    .description {
+      text-align: center;
+      padding: 0 40px;
+      color: #444;
+      font-size: 20px;
+      margin-bottom: 40px;
+    }
+
+    .imgAndIngs {
+      display: flex;
+      gap: 30px;
+      margin: 20px 0;
+    }
+
+    .imgAndIngs .image {
+      flex: 1;
+      border: 2px solid #333 ;
+      border-radius: 5px;
+    }
+   
+    .imgAndIngs .ings {
+      flex: 1;
+      border-radius: 5px;
+      background-color: #bfe7e7;
+    }
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: fill;
+    }
+
+    .ings h3, .steps h3 {
+      text-align: center;
+      font-family: 'Edu NSW ACT Cursive', sans-serif;
+      color: #333;
+      margin-bottom: 15px;
+      font-size: 24px;
+    }
+
+    .ings ul {
+      padding-left: 25px;
+    }
+    
+    .ings ul li {
+      list-style:disc;
+      font-size: 18px;
+      margin-bottom: 12px;
+      color: #333;
+    }
+
+    .steps{
+      margin-top: 50px;
+    }
+    .steps ol {
+      padding-left: 25px;
+    }
+
+    .steps ol li {
+      margin-bottom: 15px;
+      font-size: 17px;
+      color: #333;
+      font-size: 18px;
+    }
+
+    a {
+      display: block;
+      text-align: center;
+      font-size: larger;
+      margin: 30px 0;
+      color: #2f4f4f;
+      font-weight: 500;
+      transition: 0.3s;
+    }
+
+    a:hover {
+      color: #359f9f;
+    }
